@@ -37,7 +37,7 @@ const metadata = {
     <meta name="description" content={description} />
   ),
   tagline: (tagline: string | undefined) => (
-    <>{tagline || 'Discover, buy and sell NFTs'}</>
+    <>{tagline || 'Discover, buy and sell Nouns Editions'}</>
   ),
   image: (image?: string) => {
     if (image) {
